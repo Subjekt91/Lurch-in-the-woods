@@ -1,0 +1,26 @@
+logoutlocation:
+  world: world
+  x: 103.24088055414842
+  y: 82.40684408955178
+  z: 193.93553924910066
+  yaw: 74.398
+  pitch: 35.850002
+timestamps:
+  logout: 1471181909289
+  login: 1471181116145
+  lastteleport: 1467646754842
+lastAccountName: xTimon97
+ipAddress: 127.0.0.1
+afk: false
+lastlocation:
+  world: WELTMITDENBUILDS
+  x: -0.5132860970983246
+  y: 18.371110842237066
+  z: 10.108149799152294
+  yaw: 15.300003
+  pitch: 24.3
+money: '-4930.0'
+socialspy: true
+powertools:
+  '269':
+  - kill EselArmy

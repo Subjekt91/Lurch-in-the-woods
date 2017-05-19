@@ -1,0 +1,266 @@
+groups:
+  member:
+    options:
+      default: true
+      prefix: '&7Spieler&8|&7'
+    permissions:
+    - -essentials.afk
+    - -essentials.afk.auto
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - -essentials.clearinventory
+    - essentials.delhome
+    - -essentials.help
+    - -essentials.helpop
+    - essentials.home
+    - essentials.ignore
+    - essentials.info
+    - -essentials.kit
+    - -essentials.kits.tools
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - -essentials.me
+    - -essentials.motd
+    - essentials.msg
+    - -essentials.msg.color
+    - essentials.pay
+    - -essentials.ping
+    - essentials.protect
+    - essentials.rules
+    - -essentials.realname
+    - -essentials.see
+    - essentials.sethome
+    - essentials.spawn
+    - -essentials.suicide
+    - -essentials.time
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.build.*
+    - -essentials.warps.list
+    - -essentials.warps.*
+    - essentials.warp
+    - -essentials.warp.list
+    - essentials.signs.use.buy
+    - essentials.signs.use.sell
+    - essentials.signs.use
+    - essentials.chat.color
+    - -essentials.afk
+    - -essentials.afk.auto
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - -essentials.clearinventory
+    - essentials.delhome
+    - -essentials.help
+    - -essentials.helpop
+    - essentials.home
+    - essentials.ignore
+    - essentials.info
+    - -essentials.kit
+    - -essentials.kits.tools
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - -essentials.me
+    - -essentials.motd
+    - essentials.msg
+    - -essentials.msg.color
+    - essentials.pay
+    - -essentials.ping
+    - essentials.protect
+    - essentials.rules
+    - -essentials.realname
+    - -essentials.see
+    - essentials.sethome
+    - essentials.spawn
+    - -essentials.suicide
+    - -essentials.time
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.build.*
+    - -essentials.warps.list
+    - -essentials.warps.*
+    - essentials.warp
+    - -essentials.warp.list
+    - essentials.signs.use.buy
+    - essentials.signs.use.sell
+    - essentials.signs.use
+    - essentials.chat.color
+    - multiverse.access.*
+    - -minecraft.command.help
+    - -bukkit.command.?
+    - essentials.build
+    - essentials.build.interact
+  cs:
+    options:
+      default: false
+      prefix: '&a-CS-&8|&7'
+    permissions:
+    - essentials.invsee
+    - essentials.feed
+    - -essentials.weather
+    - essentials.setwarp
+    - essentials.build
+    - essentials.build.interact
+    - essentials.joinfullserver
+    - essentials.invsee
+    - essentials.feed
+    - -essentials.weather
+    - -essentials.setwarp
+    - essentials.sethome.multiple.vip
+    - essentials.chat.color
+    - essentials.enderchest
+    - essentials.workbench
+    - essentials.joinfullserver
+    - essentials.build
+    - essentials.build.interact
+  supporter:
+    options:
+      default: false
+      prefix: '&2Supporter&8|&7'
+    permissions: 
+    - essentials.feed
+    - -essentials.weather
+    - -essentials.setwarp
+    - worldguard.region.bypass.*
+    - essentials.chat.color
+    - essentials.joinfullserver
+    - essentials.invsee
+    - essentials.feed
+    - -essentials.weather
+    - essentials.setwarp
+    - worldguard.region.bypass.*
+    - essentials.sethome.multiple.vip
+    - essentials.chat.color
+    - essentials.enderchest
+    - essentials.workbench
+    - essentials.joinfullserver
+    - essentials.build
+    - essentials.build.interact
+    - essentials.tp
+    - essentials.invsee
+    - essentials.feed
+    - -essentials.weather
+    - -essentials.setwarp
+    - worldguard.region.bypass.*
+    - system.chatonmute
+    - -essentials.kill
+    - serversigns.use.*
+    - essentials.skull.*
+    - essentials.skull
+    - essentials.weather.sun
+    - essentials.fly
+    - essentials.broadcast
+    - clearchat.clear
+    - essentials.mute
+    - essentials.kick
+    - essentials.sethome.multiple.team
+    - system.supp
+    - system.team
+    - essentials.heal
+    - jobs.command.admin.stats
+    - rank.helper
+    - 1vs1.commandUse
+    - chatmanager.globalmute.bypass
+    - chatmanager.cc.bypass
+    - chatmanager.antispam.bypass
+    - chatmanager.mute
+    inheritance:
+    - cs
+  moderator:
+    options:
+      default: false
+      prefix: '&9Moderator&8|&7'
+    permissions:
+    - essentials.invsee
+    - essentials.tphere
+    - essentials.tp
+    - essentials.broadcast
+    - essentials.give
+    - essentials.feed
+    - essentials.feed.other
+    - essentials.time.set
+    - essentials.time
+    - essentials.weather
+    - essentials.*
+    - essentials.time
+    - essentials.time.set
+    - essentials.banip
+    - essentials.afk
+    - essentials.unban
+    - essentials.ban
+    - essentials.heal
+    - essentials.gamemode
+    - essentials.build
+    - essentials.build.interact
+    - multiverse.access.*
+    - multiverse.portal.access.*
+    - essentials.setwarp
+    - -worldedit.*
+    - worldguard.region.bypass.*
+    - essentials.gamemode
+    - essentials.kick
+    - essentials.tphere
+    - essentials.tpall
+    - essentials.ban
+    - essentials.tempban
+    - worldguard.*
+    inheritance:
+    - supporter
+  builder:
+    options:
+      default: false
+      prefix: '&6Architekt&8|&7'
+    permissions:
+    - essentials.*
+    - worldedit.*
+    inheritance:
+    - moderator
+  dev:
+    options:
+      default: false
+      prefix: '&3Dev&8|&7'
+    permissions:
+    - vault.admin
+    inheritance:
+    - builder
+  dev+:
+    options:
+      default: false
+      prefix: '&3HighDev&8|&7'
+    permissions:
+    - essentials.*
+    - essentials.build
+    - essentials.build.interact
+    - worldedit.*
+    - vault.*
+    inheritance:
+    - dev
+  admin:
+    options:
+      default: false
+      prefix: '&cAdministrator&8|&7'
+    permissions:
+    - permissionsex.*
+    - pex.*
+    - worldedit.*
+    - worldguard.*
+    inheritance:
+    - dev+
+  owner:
+    options:
+      default: false
+      prefix: '&4Owner&8|&7'
+    permissions:
+    - '*'
+schema-version: 1
+users:
+  f26a965c-f020-42d3-a478-6a52c4c24226:
+    group:
+    - owner
+    options:
+      name: xTimon97
